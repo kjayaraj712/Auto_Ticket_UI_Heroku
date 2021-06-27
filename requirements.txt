@@ -11,7 +11,6 @@ sentencepiece==0.1.96
 statsmodels==0.12.2
 stopwords==1.0.0
 tensorboard==2.5.0
-tensorflow==2.4.1
 tensorflow-estimator==2.5.0
 tensorflow-hub==0.12.0
 tflearn==0.5.0
