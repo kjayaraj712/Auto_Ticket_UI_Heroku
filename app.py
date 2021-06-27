@@ -14,7 +14,6 @@ import html
 from sklearn import preprocessing
 import os
 sys.path.append(os.path.abspath('./models'))
-from load import *
 
 # load model
 model = tensorflow.keras.models.load_model('C:/Users/amubi/Desktop/GreatLearning/CapStone_Project/Group_stuff/Flask/models')
