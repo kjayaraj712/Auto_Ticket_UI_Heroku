@@ -21,6 +21,5 @@ tensorflow-hub==0.12.0
 tokenization==1.0.7
 unicodecsv==0.14.1
 win-unicode-console==0.5
-wincertstore==0.2
 wordcloud==1.8.1
 wordcount==1.0
