@@ -16,7 +16,7 @@ import os
 sys.path.append(os.path.abspath('./models'))
 
 # load model
-model = tensorflow.keras.models.load_model('C:/Users/amubi/Desktop/GreatLearning/CapStone_Project/Group_stuff/Flask/models')
+model = tensorflow.keras.models.load_model('./models')
 
 # getting the pre-trained bert layer encodings and tokenize the data
 bert_layer = hub.KerasLayer('https://tfhub.dev/tensorflow/small_bert/bert_en_uncased_L-6_H-128_A-2/1', trainable=True)
