@@ -93,4 +93,4 @@ def predict():
     return render_template('result.html',prediction = enc[pred[0]])
 
 if __name__ == '__main__':
-    app.run(port = 5000, debug=True)
+    app.run(debug=True)
